@@ -1,6 +1,6 @@
 const $pizzaList = document.querySelector('#pizza-list');
 
-
+//added
 const getPizzaList = () =>{
   fetch('/api/pizzas')
   .then(response => response.json())
